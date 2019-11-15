@@ -1,0 +1,61 @@
+/* conteudo do central */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.box {
+  left: -10px;
+  float: left;
+  position: relative;
+  width: 33.33%;
+  padding: 50px;
+  top: 150px;
+}
+
+/* elementos posterires */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box#lateral {
+background-color: black;
+color: white;
+font-size: 20px;
+font-style: oblique;
+font-weight: bold;
+text-align: center;
+border-style: double;
+border-width: 10px;
+}
+
+.box#central {
+position: relative;
+padding: 0;
+background-color: black;
+color: white;
+font-size: 20px;
+height: 180px;
+text-align: center;
+-webkit-user-select: none;
+user-select: none;
+}
+.inputds {
+color: black;
+width: 100px;
+pointer-events: auto;
+}
+
+button#ds-btn {
+background-color: black;
+color: white;
+border-radius: 20%;
+}
+button#ds-btn:hover {
+background-color: rgba(25,115,220,0.12);
+}
+
+/************************************************/

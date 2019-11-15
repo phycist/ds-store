@@ -61,24 +61,29 @@ color: black;
   }
  }
 /*********************************************************/
-.div_Homem{
+
+
+/******************************************************/
+/* conteudo do site */
+#dirbox {
 left: -10px;
-float: left;
 position: relative;
-height: 500px;
-width: 49.4%;
-border-style: solid;
-
+float: left;
+background: grey;
+width: 657px;
+height:280px;
+border: 8px solid black;
 }
-.div_Mulher{
+#esqbox {
+left: 10px;
 float: right;
-height: 500px;
-width: 49.5%;
-border-style: solid;
-
+position: relative;
+background: grey;
+width:  657px;
+height:280px;
+border: 8px solid black;
 
 }
-
 /******************************************************/
 
 footer {
